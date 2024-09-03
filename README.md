@@ -87,4 +87,13 @@ Column Description for fact_plan_revenue:
 3. plans: This column represents the various internet plans provided by the Atliqo company to the users.
 4. plan_revenue_crores: This column represents the revenue that Atliqo got from that respective plan on that particular month in that city_code in crores (unit of currency in India - 1Crore = 10 Million).
 
+# 3 2 1 ACTION!
+First of all, i import all files into Excel.I choose Excel because its easy to share with Business Director and the sum of csv file is less than 250mb.
+And I turn this data into Tables to work with.
+![image](https://github.com/user-attachments/assets/1a39c80f-13b2-48d2-83bd-0de72a847e46)
+
+Than,I check  resource data to define problems such as wrong formating data,missing values etc.
+In Dim date, i find a wrong formatted data.
+![image](https://github.com/user-attachments/assets/f954020f-1a24-4aff-8d3f-c9dbdf380724)
+
 
