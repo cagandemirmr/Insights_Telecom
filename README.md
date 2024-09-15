@@ -96,4 +96,17 @@ Than,I check  resource data to define problems such as wrong formating data,miss
 In Dim date, i find a wrong formatted data.
 ![image](https://github.com/user-attachments/assets/f954020f-1a24-4aff-8d3f-c9dbdf380724)
 
+I create Agragated table to merge all information.
+Then i create GB Consumption table by using IFERROR,MID and FIND functions.
+
+=IFERROR(MID([@[Plans wto abbr]],(FIND("GB",[@[Plans wto abbr]],1)-3),5),IFERROR(MID([@[Plans wto abbr]],(FIND("MB",[@[Plans wto abbr]],1)-4),6),""))
+
+![image](https://github.com/user-attachments/assets/26857b12-d37f-4e99-8f5a-0c16f584409f)
+
+Than i copy values to new column and remove "(" with "" and change .5 GB values to 1.5GB values with Alter command(Control+H)
+![image](https://github.com/user-attachments/assets/fe246fbb-32f8-4007-acf0-05b175bff05d) 
+![image](https://github.com/user-attachments/assets/6f86fa61-159c-47e7-8d94-6e141a70eb4d)
+
+
+
 
