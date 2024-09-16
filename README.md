@@ -107,6 +107,8 @@ Than i copy values to new column and remove "(" with "" and change .5 GB values 
 ![image](https://github.com/user-attachments/assets/fe246fbb-32f8-4007-acf0-05b175bff05d) 
 ![image](https://github.com/user-attachments/assets/6f86fa61-159c-47e7-8d94-6e141a70eb4d)
 
+Also Add new column based on code in Country by using XLOOKUP,
+![image](https://github.com/user-attachments/assets/456516fc-6dc3-434c-8a83-06d8f0e1d023)
 
 
 
