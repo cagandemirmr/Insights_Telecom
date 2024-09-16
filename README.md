@@ -90,10 +90,12 @@ Column Description for fact_plan_revenue:
 # 3 2 1 ACTION!
 First of all, i import all files into Excel.I choose Excel because its easy to share with Business Director and the sum of csv file is less than 250mb.
 And I turn this data into Tables to work with.
+
 ![image](https://github.com/user-attachments/assets/1a39c80f-13b2-48d2-83bd-0de72a847e46)
 
 Than,I check  resource data to define problems such as wrong formating data,missing values etc.
 In Dim date, i find a wrong formatted data.
+
 ![image](https://github.com/user-attachments/assets/f954020f-1a24-4aff-8d3f-c9dbdf380724)
 
 I create Agragated table to merge all information.
@@ -107,8 +109,25 @@ Than i copy values to new column and remove "(" with "" and change .5 GB values 
 ![image](https://github.com/user-attachments/assets/fe246fbb-32f8-4007-acf0-05b175bff05d) 
 ![image](https://github.com/user-attachments/assets/6f86fa61-159c-47e7-8d94-6e141a70eb4d)
 
-Also Add new column based on code in Country by using XLOOKUP,
+Also Add new column based on code in Country by using XLOOKUP
+
 ![image](https://github.com/user-attachments/assets/456516fc-6dc3-434c-8a83-06d8f0e1d023)
+
+In the end of this process, i create pivot table based on Total Revenue Scores.
+![image](https://github.com/user-attachments/assets/79c0929d-0eef-4d07-a4b6-c134e63c72af)
+
+As a main KPI's, i use SUMIF functions in Aggregate column.
+![image](https://github.com/user-attachments/assets/230dbcb6-4242-4b4c-8e6a-be3f00f8b2e9)
+
+Also create pivot table based on market shares compared to 5G technologies development i other companies.
+![image](https://github.com/user-attachments/assets/c16385d4-4e78-44f4-aaf9-68e048036487)
+
+I create dashboard using sliders based on date,5G technologies and cities in India.
+I choose colors of company because of company identity.
+![image](https://github.com/user-attachments/assets/aa18d4ec-2ad0-439e-a58f-7b1955184ff1)
+
+
+
 
 
 
